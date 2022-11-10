@@ -1,0 +1,10 @@
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/CMakeFiles/INSTALL.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/CMakeFiles/ALL_BUILD.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/CMakeFiles/ZERO_CHECK.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/flutter/CMakeFiles/INSTALL.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/CMakeFiles/clientmanagmentlocal.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/CMakeFiles/INSTALL.dir
+F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/CMakeFiles/ALL_BUILD.dir
