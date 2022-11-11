@@ -1,4 +1,4 @@
-#Thu Nov 10 13:26:48 CET 2022
-base.0=F\:\\FlutterApps\\ClientmanagmentLocal\\clientmanagmentlocal\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Thu Nov 10 15:31:54 CET 2022
+base.0=F\:\\Studia\\Aplikacje mobilne\\YB\\your_bussiness\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

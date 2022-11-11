@@ -1,6 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:mysql1/mysql1.dart';
+import 'strona_glowna.dart';
 
-void main() {
+void main() async {
+  var settings = ConnectionSettings(
+      host: '195.78.67.45',
+      port: 3306,
+      user: 'wvhqtokdgq_flutteryourbussiness',
+      password: 'azmGgD.1-*sw-OQ9',
+      db: 'wvhqtokdgq_flutteryourbussiness');
+  final conn = await MySqlConnection.connect(settings);
+
+  await conn.query(
+      'CREATE TABLE users (id int NOT NULL AUTO_INCREMENT PRIMARY KEY, name varchar(255), email varchar(255), age int)');
   runApp(const MainPage());
 }
 
@@ -10,76 +22,9 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: "WP - projekt",
+      title: "Your Bussiness",
       home: Strony(),
     );
-  }
-}
-
-class StronaGlowna extends StatefulWidget {
-  const StronaGlowna({Key? key}) : super(key: key);
-
-  @override
-  State<StronaGlowna> createState() => _StronaGlownaState();
-}
-
-class _StronaGlownaState extends State<StronaGlowna> {
-  @override
-  Widget build(BuildContext context) {
-    // return Row(
-    //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-    //   children: [
-    //     Image(image: AssetImage('assets/user.png')),
-    //     Image(image: AssetImage('assets/user.png')),
-    //   ],
-    // );
-
-    return ListView(
-      children: [
-        for (var i = 0; i < 20; i++)
-          Container(
-            padding: const EdgeInsets.only(
-              top: 20.0,
-              left: 20.0,
-              right: 20.0,
-              bottom: 40.0,
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                const Image(image: AssetImage('assets/user.png')),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const Powiadomienia()),
-                    );
-                  },
-                  child: const Image(image: AssetImage('assets/bell.png')),
-                ),
-              ],
-            ),
-          ),
-      ],
-    );
-  }
-}
-
-class Powiadomienia extends StatefulWidget {
-  const Powiadomienia({Key? key}) : super(key: key);
-
-  @override
-  State<Powiadomienia> createState() => _PowiadomieniaState();
-}
-
-class _PowiadomieniaState extends State<Powiadomienia> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        body: Container(
-      child: Text("data"),
-    ));
   }
 }
 
@@ -136,12 +81,16 @@ class _StronyState extends State<Strony> {
       ),
       bottomNavigationBar: Container(
         decoration: const BoxDecoration(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(15.0),
+            topRight: Radius.circular(15.0),
+          ),
           gradient: LinearGradient(
-            begin: Alignment.topCenter,
+            begin: Alignment(1, 8),
             end: Alignment(0.8, 1),
             colors: <Color>[
               Color(0xFF2E3047),
-              Color(0xFF3C3F58),
+              Color.fromARGB(255, 101, 105, 141),
             ], // Gradient from https://learnui.design/tools/gradient-generator.html
             tileMode: TileMode.mirror,
           ),
