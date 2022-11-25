@@ -1,6 +1,6 @@
-^F:\FLUTTERAPPS\CLIENTMANAGMENTLOCAL\CLIENTMANAGMENTLOCAL\BUILD\WINDOWS\CMAKEFILES\2221D99A0206DDBDF63040E35FAA20FD\GENERATE.STAMP.RULE
+^F:\STUDIA\APLIKACJE MOBILNE\YB\YOUR_BUSSINESS\BUILD\WINDOWS\CMAKEFILES\A18DC5708334F89F7E114E048545A533\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/windows -BF:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/clientmanagmentlocal.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/Studia/Aplikacje mobilne/YB/your_bussiness/windows" "-BF:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/clientmanagmentlocal.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,14 +1,15 @@
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/icudtl.dat
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/flutter_windows.dll
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/assets/bell.png
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/assets/checklist.png
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/assets/list.png
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/assets/profiles.png
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/assets/setting.png
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/assets/user.png
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
-F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/icudtl.dat
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/flutter_windows.dll
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/assets/bell.png
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/assets/checklist.png
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/assets/list.png
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/assets/locate.png
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/assets/profiles.png
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/assets/setting.png
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/assets/user.png
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf

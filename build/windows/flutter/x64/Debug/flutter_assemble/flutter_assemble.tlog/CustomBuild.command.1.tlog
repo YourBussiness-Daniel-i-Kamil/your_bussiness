@@ -1,6 +1,6 @@
-^F:\FLUTTERAPPS\CLIENTMANAGMENTLOCAL\CLIENTMANAGMENTLOCAL\BUILD\WINDOWS\CMAKEFILES\76951508329B49DFA18FAB61BE940F92\FLUTTER_WINDOWS.DLL.RULE
+^F:\STUDIA\APLIKACJE MOBILNE\YB\YOUR_BUSSINESS\BUILD\WINDOWS\CMAKEFILES\B4237F55143697A51D66AC0ED6604C32\FLUTTER_WINDOWS.DLL.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\flutter\ephemeral PROJECT_DIR=F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal FLUTTER_TARGET=F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=F:\Studia\Aplikacje mobilne\YB\your_bussiness" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\flutter\ephemeral" "PROJECT_DIR=F:\Studia\Aplikacje mobilne\YB\your_bussiness" "FLUTTER_TARGET=F:\Studia\Aplikacje mobilne\YB\your_bussiness\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=F:\Studia\Aplikacje mobilne\YB\your_bussiness\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +8,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^F:\FLUTTERAPPS\CLIENTMANAGMENTLOCAL\CLIENTMANAGMENTLOCAL\BUILD\WINDOWS\CMAKEFILES\778D5390F8A929E901FF52CAE14EFE43\FLUTTER_ASSEMBLE.RULE
+^F:\STUDIA\APLIKACJE MOBILNE\YB\YOUR_BUSSINESS\BUILD\WINDOWS\CMAKEFILES\D5A1C9941318257F31479D246658E7A1\FLUTTER_ASSEMBLE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +16,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^F:\FLUTTERAPPS\CLIENTMANAGMENTLOCAL\CLIENTMANAGMENTLOCAL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+^F:\STUDIA\APLIKACJE MOBILNE\YB\YOUR_BUSSINESS\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/windows -BF:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows --check-stamp-file F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/build/windows/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/Studia/Aplikacje mobilne/YB/your_bussiness/windows" "-BF:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows" --check-stamp-file "F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/flutter/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

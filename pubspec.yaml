@@ -42,6 +42,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -69,6 +71,7 @@ flutter:
     - assets/profiles.png
     - assets/user.png
     - assets/bell.png
+    - assets/locate.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

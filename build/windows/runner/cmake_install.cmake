@@ -1,4 +1,4 @@
-# Install script for directory: F:/FlutterApps/ClientmanagmentLocal/clientmanagmentlocal/windows/runner
+# Install script for directory: F:/Studia/Aplikacje mobilne/YB/your_bussiness/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

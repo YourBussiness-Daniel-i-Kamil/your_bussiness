@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F4456B25-877E-3582-8E40-A03BB75EA235}</UniqueIdentifier>
+      <UniqueIdentifier>{929D6DDE-8648-3715-A2CF-D0B8DE24BEB4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{44805DCC-293F-3C99-99BC-323DBF13E375}</UniqueIdentifier>
+      <UniqueIdentifier>{84E0E858-64A9-35C2-89A7-34E4CF7EE938}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

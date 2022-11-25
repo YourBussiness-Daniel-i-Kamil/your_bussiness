@@ -1,0 +1,10 @@
+^F:\STUDIA\APLIKACJE MOBILNE\YB\YOUR_BUSSINESS\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/Studia/Aplikacje mobilne/YB/your_bussiness/windows" "-BF:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows" --check-stamp-file "F:/Studia/Aplikacje mobilne/YB/your_bussiness/build/windows/runner/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

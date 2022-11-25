@@ -1,18 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:mysql1/mysql1.dart';
+import 'package:flutter/widgets.dart';
+import 'tasks.dart';
+import 'litesql.dart';
 import 'strona_glowna.dart';
 
 void main() async {
-  var settings = ConnectionSettings(
-      host: '195.78.67.45',
-      port: 3306,
-      user: 'wvhqtokdgq_flutteryourbussiness',
-      password: 'azmGgD.1-*sw-OQ9',
-      db: 'wvhqtokdgq_flutteryourbussiness');
-  final conn = await MySqlConnection.connect(settings);
+  WidgetsFlutterBinding.ensureInitialized();
 
-  await conn.query(
-      'CREATE TABLE users (id int NOT NULL AUTO_INCREMENT PRIMARY KEY, name varchar(255), email varchar(255), age int)');
   runApp(const MainPage());
 }
 
@@ -37,7 +31,6 @@ class Strony extends StatefulWidget {
 
 class _StronyState extends State<Strony> {
   static int _selectedIndex = 0;
-  String test = "test";
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -47,12 +40,9 @@ class _StronyState extends State<Strony> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
-  static final List<Widget> _widgetOptions = <Widget>[
+  final widgetOptions = [
     const StronaGlowna(),
-    const Text(
-      'Index 1: Business',
-      style: optionStyle,
-    ),
+    const Tasks(),
     const Text(
       'Index 2: School',
       style: optionStyle,
@@ -63,6 +53,7 @@ class _StronyState extends State<Strony> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        padding: EdgeInsets.all(16.0),
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.centerLeft,
@@ -75,9 +66,9 @@ class _StronyState extends State<Strony> {
           ),
         ),
         // height: double.infinity,
-        width: double.infinity,
+        // width: double.infinity,
 
-        child: _widgetOptions.elementAt(_selectedIndex),
+        child: widgetOptions[_selectedIndex],
       ),
       bottomNavigationBar: Container(
         decoration: const BoxDecoration(
@@ -87,10 +78,10 @@ class _StronyState extends State<Strony> {
           ),
           gradient: LinearGradient(
             begin: Alignment(1, 8),
-            end: Alignment(0.8, 1),
+            end: Alignment(0.1, 1),
             colors: <Color>[
-              Color(0xFF2E3047),
-              Color.fromARGB(255, 101, 105, 141),
+              Color(0xFF161F3A),
+              Color.fromARGB(255, 47, 65, 121),
             ], // Gradient from https://learnui.design/tools/gradient-generator.html
             tileMode: TileMode.mirror,
           ),
@@ -101,15 +92,27 @@ class _StronyState extends State<Strony> {
           type: BottomNavigationBarType.fixed,
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
-              icon: Image(image: AssetImage('assets/checklist.png')),
+              icon: Image(
+                image: AssetImage('assets/checklist.png'),
+                height: 60,
+                width: 60,
+              ),
               label: 'Lista zadań',
             ),
             BottomNavigationBarItem(
-              icon: Image(image: AssetImage('assets/profiles.png')),
+              icon: Image(
+                image: AssetImage('assets/profiles.png'),
+                height: 60,
+                width: 60,
+              ),
               label: 'Klienci',
             ),
             BottomNavigationBarItem(
-              icon: Image(image: AssetImage('assets/setting.png')),
+              icon: Image(
+                image: AssetImage('assets/locate.png'),
+                height: 60,
+                width: 60,
+              ),
               label: 'Ustawienia',
             ),
           ],

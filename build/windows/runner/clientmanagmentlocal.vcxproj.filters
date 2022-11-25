@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\runner\flutter_window.cpp">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\runner\flutter_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\runner\main.cpp">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\runner\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\runner\utils.cpp">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\runner\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\runner\win32_window.cpp">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\runner\win32_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\flutter\generated_plugin_registrant.cc">
+    <ClCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\flutter\generated_plugin_registrant.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\runner\CMakeLists.txt" />
+    <CustomBuild Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\runner\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="F:\FlutterApps\ClientmanagmentLocal\clientmanagmentlocal\windows\runner\Runner.rc">
+    <ResourceCompile Include="F:\Studia\Aplikacje mobilne\YB\your_bussiness\windows\runner\Runner.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{44805DCC-293F-3C99-99BC-323DBF13E375}</UniqueIdentifier>
+      <UniqueIdentifier>{84E0E858-64A9-35C2-89A7-34E4CF7EE938}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
