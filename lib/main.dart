@@ -59,8 +59,8 @@ class _StronyState extends State<Strony> {
             begin: Alignment.centerLeft,
             end: Alignment(1, 0),
             colors: <Color>[
-              Color(0xFFF9F9F9),
-              Color(0xFFEDEDED),
+              Color(0xFFa6f9f5),
+              Color(0xFFbfeaed),
             ], // Gradient from https://learnui.design/tools/gradient-generator.html
             tileMode: TileMode.mirror,
           ),
